@@ -1,6 +1,6 @@
 from nltk.corpus import stopwords
 STOPWORDS = set(stopwords.words('english'))
-
+ 
 def parse_chat_log(file_path):
     user_messages = []
     ai_messages = []
